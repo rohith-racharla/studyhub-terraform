@@ -10,7 +10,6 @@ permissions:
 jobs:
   infracost-scan:
     runs-on: ubuntu-latest
-    environment: Infracost
     steps:
       - name: Checkout
         uses: actions/checkout@v5

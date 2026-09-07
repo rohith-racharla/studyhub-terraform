@@ -17,7 +17,6 @@ permissions:
 jobs:
   infracost-diff:
     runs-on: ubuntu-latest
-    environment: Infracost
     steps:
       - name: Get PR details
         id: pr
